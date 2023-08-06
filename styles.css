@@ -5,6 +5,34 @@
     margin: 0 auto;
   }
 
+nav-section {
+  margin-left: 80px;
+  width: 55%;
+  font-size: .8em
+}
+
+nav-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  margin-right: 60px;
+}
+
+nave a {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 5px 10px;
+  margin-left: 7px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  background-color: #EF8042;
+  border-radius: 70%;
+  color: white;
+}
   header {
     margin: -20px 0 0 0;
     background-color:rgb(255, 151, 246);
