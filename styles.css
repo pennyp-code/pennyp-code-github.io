@@ -5,7 +5,7 @@
     margin: 0 auto;
   }
   header {
-    background-color:   background-color:rgba(252, 205, 191, 0.98); /* Set the header background color to blue */
+    background-color:rgba(252, 205, 191, 0.98); /* Set the header background color to blue */
     color: white; /* Set the text color to white */
     font-family: Roboto, sans-serif; /* Use Arial font */
     text-align: center;
