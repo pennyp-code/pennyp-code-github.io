@@ -7,7 +7,7 @@
 
   header {
     margin: -20px 0 0 0;
-    background-color:rgb(141, 203, 213);
+    background-color:rgb(255, 151, 246);
     color: white; /* Set the text color to white */
     font-family: Roboto, sans-serif; /* Use Arial font */
     text-align: center;
@@ -75,7 +75,7 @@
   padding: 0;
   width: 100%;
   height: 100%;
-  background: rgb(141, 203, 213);
+  background: rgb(255, 151, 246);
   color: black;
   display: flex;
   flex-direction: column;
@@ -115,7 +115,7 @@ footer {
   display: grid;
   grid-template-columns: 2fr 30%;
   justify-content: space-between;
-  background-color:rgb(141, 203, 213);
+  background-color:rgb(255, 151, 246);
 }
 
 .footer-section {
