@@ -16,7 +16,9 @@
     position: relative;
   }
 
-h1 { font-size: 40px; } 
+h1 { font-size: 40px;    
+    font-family: Roboto, sans-serif;
+   } 
 
   .content {
     display: flex;
