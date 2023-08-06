@@ -15,15 +15,6 @@
     position: relative;
   }
   
-  .hamburger {
-    background-color: transparent;
-    border: 0;
-    color: #000;
-    font-size: 20px;
-    cursor: pointer;
-    display: none;
-  }
-  
   .content {
     display: flex;
     flex-wrap: wrap;
