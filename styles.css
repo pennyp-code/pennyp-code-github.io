@@ -16,6 +16,11 @@
   float: right;
 }
 
+.row{
+    display:flex;
+}
+
+
 .container {
     display: flex; /* Use flexbox to align the main content and sidebar */ }
 
