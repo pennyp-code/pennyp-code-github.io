@@ -16,6 +16,20 @@
   float: right;
 }
 
+.container {
+    display: flex; /* Use flexbox to align the main content and sidebar */ }
+
+.main-content {
+    flex: 3; /* Take up 3 parts of the container's width */
+    padding: 20px; 
+}
+
+.sidebar {
+    flex: 1; /* Take up 1 part of the container's width */
+    padding: 20px;
+    background-color: #f0f0f0; /* Example background color for the sidebar */
+}
+
   header {
     margin: -20px 0 0 0;
     background-color:rgb(250, 183, 183);
