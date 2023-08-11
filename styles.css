@@ -36,7 +36,7 @@
     #climber {
         position: fixed; /* Keep the climber in the same position as you scroll */
         right: 0; /* Align to the right side of the sidebar */
-        top: 50px; /* Initial vertical position */
+        top: 450px; /* Initial vertical position */
         width: 100px; /* Set a suitable width */
 }
 
