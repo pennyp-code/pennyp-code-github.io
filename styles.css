@@ -38,6 +38,7 @@
         right: 0; /* Align to the right side of the sidebar */
         top: 450px; /* Initial vertical position */
         width: 100px; /* Set a suitable width */
+    }
 }
 
 .center {
