@@ -33,6 +33,11 @@
     flex: 1; /* Take up 1 part of the container's width */
     padding: 20px;
     background-color: #f0f0f0; /* Example background color for the sidebar */
+    #climber {
+        position: fixed; /* Keep the climber in the same position as you scroll */
+        right: 0; /* Align to the right side of the sidebar */
+        top: 50px; /* Initial vertical position */
+        width: 100px; /* Set a suitable width */
 }
 
 .center {
