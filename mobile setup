@@ -1,0 +1,156 @@
+/* Mobile menu */
+@media only screen and (max-width: 767px) {
+
+  html,body {
+    overflow-x: hidden;
+  }
+
+  .nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nav.show {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .hamburger__container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 10px 0 0;
+  }
+
+  .hamburger {
+    display: block
+  }
+
+  .hero__content p {
+    font-size: 1.05em;
+  }
+
+  .hero__content {
+    font-size: 1.3em;
+    width: 100%;
+  }
+
+  .pink-flower {
+    width: 80%;
+    position: absolute;
+    top: 30;
+    right: 0;
+    z-index: 0;
+    animation-name: rotate;
+    animation-duration: 0;
+    animation-iteration-count: none;
+    animation-timing-function: none;
+  }
+  
+  @keyframes rotate{
+    from {
+      transform: 0
+    }
+  }
+
+  .page {
+    max-width: 95%;
+    margin: 5px 0 0 20px;
+  }
+
+  .page-about {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .project__desc {
+    font-size: 1em;
+    text-align: center;
+  }
+  
+  .project-links__section {
+    margin-top: 10px;
+  }
+
+  .about {
+    width: 90%;
+    margin: 5px 0 0 20px;
+  }
+
+  .about-me-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .info-links {
+    width: 80%;
+    font-size: 0.7em;
+    padding: 8px;
+  }
+
+  .tech-stack__lists {
+    font-size: 1em;
+  }
+
+  .footer-section {
+    margin-left: 20px;
+    max-width: 80%;
+    font-size: 0.7em;
+  }
+
+  footer {
+    max-width: 100%;
+  }
+
+  .footer-links {
+    justify-content: flex-start;
+    padding: 0;
+    font-size: 0.7em;
+    margin: 30px 0 0 0;
+    padding: 0;
+  }
+}
+
+
+/* Mobile layout */
+@media only screen and (max-width: 420px) {
+
+  html,body{
+    overflow-x: hidden;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    margin: 0;
+  }
+
+  .info-links {
+    width: 60%;
+    font-size: 0.7em;
+    padding: 5px;
+    margin: 3px;
+  }
+
+  .tech-stack__lists {
+    font-size: 0.85em;
+  }
+
+  .project__desc {
+    font-size: 0.85em;
+    text-align: center;
+  }
+
+}
