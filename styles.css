@@ -21,9 +21,15 @@
 }
 
 
-.container {
-    display: flex; /* Use flexbox to align the main content and sidebar */ }
+/* .container {
+    display: flex; Use flexbox to align the main content and sidebar } */
+    .container { display: flex; 
+      /* max-height: calc(100vh - 20px); Adjust this value based on your footer height and desired margin  */
+      /* overflow-y: auto; Allow vertical scrolling if content is taller than max-height  */
+    }
 
+
+    
 .main-content {
     flex: 3; /* Take up 3 parts of the container's width */
     padding: 20px; 
@@ -32,12 +38,15 @@
 .sidebar {
     flex: 1; /* Take up 1 part of the container's width */
     padding: 20px;
+    /* bottom: footer; */
+    /* height: height - 20px; */
     background-color: #f0f0f0; /* Example background color for the sidebar */
     #climber {
-        position: fixed; /* Keep the climber in the same position as you scroll */
-        right: 0; /* Align to the right side of the sidebar */
-        top: 450px; /* Initial vertical position */
-        width: 100px; /* Set a suitable width */
+      position: fixed; /*Keep the climber in the same position as you scroll */
+        right: 0;
+        top: 450px;
+        bottom: 450px;
+        width: 800px;
     }
 }
 
@@ -185,6 +194,16 @@ h1 { font-size: 60px;
   margin-top: 30px;
 }
 
+.project-item a {
+   display: block; 
+  } 
+.project-item a img {
+   transition: transform .2s ease-in-out; 
+  } 
+.project-item a:hover img {
+   transform: scale(1.1); 
+  }
+
 .info-links:hover {
   background-color: #8dcbd5;
   box-shadow: 1px 1px black;
@@ -235,15 +254,20 @@ footer {
   color: white;
 }
 
+/* Mobile menu */
+@media only screen and (max-width: 767px) {
 
+  html,body {
+    overflow-x: hidden;
+  }
+  .nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+}
 
+/* mobile layout */
+@media only screen and (max-width: 420px) {
 
-
-
-
-
-
-
-
-
-  
+}
